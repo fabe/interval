@@ -1,0 +1,21 @@
+{
+  "name": "interval",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Fabian Schultz <desk@fabianschultz.com>"
+  ],
+  "description": "Tracking sleep with a Raspberry Pi and the MPU6050.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6",
+    "morris.js": "~0.5.1"
+  }
+}
