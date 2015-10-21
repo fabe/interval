@@ -1,6 +1,6 @@
 # interval
 
-This is a project for a class at the University of Applied Sciences Potsdam. The goal was to create an IoT-Device, preferably with NodeJS and Johnny Five. The two-week long class was supervised by Fabian Morón Zirfas.
+This is a project for a class at the [University of Applied Sciences Potsdam](http://interface.fh-potsdam.de/showcase/). The goal was to create an IoT-Device, preferably with NodeJS and Johnny Five. The two-week long class was supervised by [Fabian Morón Zirfas](https://github.com/fabiantheblind).
 
 *Interval* is a sleep tracker that grabs values from an accelerometer (in this case the MPU6050) and visualizes movement throughout the night. Tracking can be started and ended via a website that runs on NodeJS, which is also the place where the visualization happens.
 
@@ -11,7 +11,7 @@ I attached the accelerometer to a wooden board for more accurate tracking and pl
 
 ![](http://i.imgur.com/GIVh0hq.jpg)
 
-The final product should be invisible and hidden underneath the sheets/bed.
+The final product would be invisible and hidden underneath the sheets/bed.
 
 ## Software
 NodeJS and MongoDB is running on the Raspberry Pi. I get the accelerometer data through the (specific) [mpu6050 module](https://github.com/jstapels/mpu6050/). For installation instructions I collected some [helpful links](#helpful-links) below.
